@@ -1,5 +1,5 @@
 
-public class Spectator implements IRaceController {
+public class Spectator implements IRaceController, ISpectatorView {
 
 	@Override
 	public float getSpeed() {
@@ -42,5 +42,6 @@ public class Spectator implements IRaceController {
 		// TODO Auto-generated method stub
 		
 	}
+
 
 }

@@ -6,8 +6,7 @@ public interface IRaceController {
     public int getElapsedTime();
     public String getRacerName();
     public String getRacerGear();
-    public int getRacerRankPrediction();
-    public void refreshView();
+
 
 
 }
